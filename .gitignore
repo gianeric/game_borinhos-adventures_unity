@@ -48,9 +48,11 @@ ExportedObj/
 *.VC.db
 
 # Unity3D generated meta files
+*.meta
 *.pidb.meta
 *.pdb.meta
 *.mdb.meta
+*.png.meta
 
 # Unity3D generated file on crash reports
 sysinfo.txt
@@ -60,6 +62,7 @@ sysinfo.txt
 *.aab
 *.unitypackage
 *.app
+
 
 # Crashlytics generated file
 crashlytics-build.properties
@@ -72,6 +75,10 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 /[Aa]ssets/[Ss]cripts.meta
 /[Aa]ssets/[Ss]cripts/*.meta
+/[Aa]ssets/[Aa]rt/*.meta
+/[Aa]ssets/*.meta
 
 #VS Code
 .vscode/
+
+
