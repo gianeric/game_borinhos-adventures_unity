@@ -14,8 +14,8 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float horizontal = SetHorizontal();
-        float vertical = SetVertical();
+        float horizontal = GetHorizontal();
+        float vertical = GetVertical();
 
         Vector2 position = transform.position;
         position.x = position.x + 0.1f * horizontal;
@@ -25,7 +25,7 @@ public class PlayerController : MonoBehaviour
         Debug.Log("Posição do X: " + position.x + " Posição do Y: " +position.y);
     }
 
-    private float SetHorizontal(){
+    private float GetHorizontal(){
         float horizontal = 0.0f;
 
         if (Keyboard.current.leftArrowKey.isPressed)
@@ -40,7 +40,7 @@ public class PlayerController : MonoBehaviour
         return horizontal;
     }
 
-    private float SetVertical(){        
+    private float GetVertical(){        
         float vertical = 0.0f;
 
         if (Keyboard.current.downArrowKey.isPressed)
