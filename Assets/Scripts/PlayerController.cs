@@ -16,6 +16,10 @@ public class PlayerController : MonoBehaviour
         MoveAction.Enable();
         MoveActionSecondary.Enable();
         GamepadAction.Enable();
+
+        // Debug.Log("Initalizing fps.");
+        // QualitySettings.vSyncCount = 0;
+        // Application.targetFrameRate = 10;
     }
 
     // Update is called once per frame
@@ -28,7 +32,7 @@ public class PlayerController : MonoBehaviour
 
     private void SetMoveAction(InputAction Move){
         Vector2 move = Move.ReadValue<Vector2>();
-        Vector2 position = (Vector2)transform.position + move * 0.01f;
+        Vector2 position = (Vector2)transform.position + move * 3.0f * Time.deltaTime;
         transform.position = position;
 
         Debug.Log("Posição do X: " + position.x + " Posição do Y: " +position.y);
