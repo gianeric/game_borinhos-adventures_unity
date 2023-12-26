@@ -6,7 +6,6 @@ using UnityEngine.InputSystem;
 public class PlayerController : MonoBehaviour
 {
     public InputAction MoveAction;
-    public InputAction MoveActionSecondary;
     public InputAction GamepadAction;
 
     // Start is called before the first frame update
@@ -14,7 +13,6 @@ public class PlayerController : MonoBehaviour
     {
         Debug.Log("Start.");
         MoveAction.Enable();
-        MoveActionSecondary.Enable();
         GamepadAction.Enable();
 
         // Debug.Log("Initalizing fps.");
@@ -26,7 +24,6 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         SetMoveAction(MoveAction);
-        SetMoveAction(MoveActionSecondary);
         SetMoveAction(GamepadAction);
     }
 
