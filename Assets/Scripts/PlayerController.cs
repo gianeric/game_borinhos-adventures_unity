@@ -7,13 +7,15 @@ public class PlayerController : MonoBehaviour
 {
     public InputAction MoveAction;
     public InputAction MoveActionSecondary;
+    public InputAction GamepadAction;
 
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("Start!");
+        Debug.Log("Start.");
         MoveAction.Enable();
         MoveActionSecondary.Enable();
+        GamepadAction.Enable();
     }
 
     // Update is called once per frame
@@ -21,6 +23,7 @@ public class PlayerController : MonoBehaviour
     {
         SetMoveAction(MoveAction);
         SetMoveAction(MoveActionSecondary);
+        SetMoveAction(GamepadAction);
     }
 
     private void SetMoveAction(InputAction Move){

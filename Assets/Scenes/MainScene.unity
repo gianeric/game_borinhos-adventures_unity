@@ -455,6 +455,95 @@ MonoBehaviour:
       m_Action: Move Action Secondary
       m_Flags: 8
     m_Flags: 0
+  GamepadAction:
+    m_Name: Gamepad
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 39f2f462-db72-4328-aa39-9f59b13b0596
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 2D Vector
+      m_Id: 46a9b709-9a6e-494f-9b39-55f8078e5405
+      m_Path: 2DVector
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Gamepad
+      m_Flags: 4
+    - m_Name: up
+      m_Id: e950b766-366e-4cfc-92e0-cbcbc6c77809
+      m_Path: <Gamepad>/leftStick/up
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Gamepad
+      m_Flags: 8
+    - m_Name: down
+      m_Id: 88554f41-b1eb-4d6a-9633-240db913658e
+      m_Path: <Gamepad>/leftStick/down
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Gamepad
+      m_Flags: 8
+    - m_Name: left
+      m_Id: d4f90f95-c63b-4ab1-8368-2df242ac1db7
+      m_Path: <Gamepad>/leftStick/left
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Gamepad
+      m_Flags: 8
+    - m_Name: right
+      m_Id: 00426745-d223-40c6-bafe-36123f7e8c35
+      m_Path: <Gamepad>/leftStick/right
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Gamepad
+      m_Flags: 8
+    - m_Name: 2D Vector
+      m_Id: 1e7ba1a1-4a4f-4ea1-9c3f-526d32a9498e
+      m_Path: 2DVector
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Gamepad
+      m_Flags: 4
+    - m_Name: up
+      m_Id: 9b6957ca-9f45-4a7a-b55d-42b6ad7e57cb
+      m_Path: <Gamepad>/dpad/up
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Gamepad
+      m_Flags: 8
+    - m_Name: down
+      m_Id: adde4023-384d-4d18-8ce0-e2e98276857a
+      m_Path: <Gamepad>/dpad/down
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Gamepad
+      m_Flags: 8
+    - m_Name: left
+      m_Id: 5aa092bb-5347-4acf-9292-2e4b2db41845
+      m_Path: <Gamepad>/dpad/left
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Gamepad
+      m_Flags: 8
+    - m_Name: right
+      m_Id: 9efd833a-52e4-4e3b-9e16-4dbf7e354ad9
+      m_Path: <Gamepad>/dpad/right
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Gamepad
+      m_Flags: 8
+    m_Flags: 0
 --- !u!1 &1769658299
 GameObject:
   m_ObjectHideFlags: 0
